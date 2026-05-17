@@ -1,7 +1,13 @@
-fix,detail,priority
-Real-time merchant availability sync,Eliminate post-purchase booking failures,Critical
-Refund SLA + AI-triage,"48-hour refund commit, surfaced pre-purchase",Critical
-Inventory revitalization,Reactivate lapsed merchants in top 25 DMAs,Critical
-Transparent terms above CTA,Move exclusions above the fold,High
-Opt-in clarity for Select membership,"Single-click toggle, no dark-patterns",High
-Trustpilot response operations,"Public, templated responses with case IDs",Medium
+fix,detail,priority,redesign_tier,sentiment_themes_addressed,complaint_frequency,leverage_rank,source
+Real-time merchant availability sync,Eliminate post-purchase booking failures,Critical,Tier 6 (AvailabilityCalendar) + Tier 7 (atomic pay+reserve),Merchant unavailability; Customer service unresponsive (refund disputes triggered by failed bookings),High,1,legacy + redesign
+Refund SLA + AI-triage,"48-hour refund commit, surfaced pre-purchase",Critical,Tier 2 (RefundPolicyBadge) + Tier 6 (terms above CTA) + Tier 8 (SupportChatPanel SLA),Customer service unresponsive,Very High,2,legacy + redesign
+Persistent post-purchase support entry,"""Need help with this order?"" CTA on confirmation, voucher, and order history — intercepts off-platform escalations",Critical,Tier 8 (PostPurchaseHelpEntry),Customer service unresponsive,Very High,3,redesign (highest-leverage per redesign plan)
+Transparent terms above CTA,Move exclusions/total cost above the fold,High,Tier 6 (FinePrintExpander) + Tier 7 (OrderReviewSummary),Hidden fine print / exclusions,High,4,legacy + redesign
+Inventory revitalization,Reactivate lapsed merchants in top 25 DMAs,Critical,(out of redesign scope — supply-side workstream),Inventory shrinking,High,5,legacy
+Notification preference center,Per-category frequency sliders; honor unsubscribe in <24h; cap pushes at 1/day for new users,High,Tier 9 (NotificationPreferenceCenter),(uninstall driver — not in current sentiment CSV but documented at 235 emails/month and 500M pushes/day platform-wide),High (external evidence),6,redesign
+Opt-in clarity for Select membership,"Single-click toggle, no dark-patterns; mandatory recurring-charge checkbox at checkout",High,Tier 7 (RecurringChargeCheckbox),Auto-renew / Select membership,Medium,7,legacy + redesign
+Conversational discovery assistant,Natural-language search closing Yelp Assistant gap; reduces zero-result dead ends,High,Tier 5 (AssistantChatPanel),(new-customer acquisition — addresses the 18% billings vs 4.5% customer growth wedge),Strategic (not in complaint CSV),8,redesign
+Lifestyle onboarding + personalized feed,"6-question quiz seeds Fever-style single-column feed, replacing category carousels",Medium,Tier 3 (LifestyleQuizScreen) + Tier 4 (PersonalizedFeedList),App speed / discovery (low-frequency positive; conversion lever),Low (complaint) / High (conversion),9,redesign
+Voucher expiry clarity,"Distinguish paid value vs promo value on every voucher; live countdown to refund deadline",Medium,Tier 8 (VoucherCard + RefundCountdown),Voucher expiry confusion,Medium,10,legacy + redesign
+BNPL parity in-app,"Klarna at any basket size; surfaced at deal-page price",Medium,Tier 2 (BNPLPricingHint) + Tier 7 (PaymentMethodSelector),(checkout conversion — not in complaint CSV),Medium (conversion lever),11,redesign
+Trustpilot response operations,"Public, templated responses with case IDs",Medium,(operational — adjacent to Tier 8 support layer),Customer service unresponsive,Medium,12,legacy

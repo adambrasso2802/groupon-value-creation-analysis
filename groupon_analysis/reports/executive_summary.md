@@ -54,3 +54,20 @@ Groupon is a global local-commerce marketplace that **has already inflected** un
 - The "100-day plan" partially assumed levers (sales coverage, NA Local revival) that current management appears to have already pulled.
 
 **Strategic implication:** at the previous entry assumption ($300–350M equity check, 5x leverage), the new Base case implies ~3.5–4× MoM rather than 2.5×. The principal risk for the sponsor is now overpaying at entry on a price set by competitive auction, not getting the operating plan wrong.
+
+---
+
+## Workstream 4: App & CX Overhaul *(elevated 2026-05; companion to `groupon-redesign/`)*
+
+**Investment case.** Groupon's 4.8-star iOS rating is a sampling artifact of a closed in-app complaint funnel — every other review surface sits at 1.5/5 (Reviews.io 9.7K reviews, 7% would recommend; PissedConsumer 28.1K reviews; BBB ~1.0) — and three of the four dominant complaints (refund trap, invisible support, broken post-payment booking) sit directly on retention, not brand. With FY25 billings growing ~18% YoY against active customers growing only ~4.5% over three quarters (15.4M → 16.1M), the recovery is being carried by existing cohorts; the Bull-case Select v2 subscription thesis (~$2.7–3.3B EV) cannot underwrite 1.5–2.0M paid subs without first repairing the post-purchase trust contract that determines whether those subs renew.
+
+**KPIs (drawn from the redesign's nine-tier architecture).**
+1. **Off-platform rating delta** — close the gap between iOS App Store rating and Reviews.io / Trustpilot / PissedConsumer composite by 1.5 stars over 24 months. Instrumented by Tier 1 analytics and Tier 8's `PostPurchaseHelpEntry` intercept rate (% of refund-eligible frustrated sessions resolved in-app vs. escalated externally).
+2. **Post-payment booking success rate** — % of bookable-service purchases that result in a confirmed merchant slot within 24 hours. Target ≥95% (vs. an inferred current rate well below that based on "circle keeps spinning" complaint density). Driven by Tier 6's `AvailabilityCalendar` + atomic booking integration.
+3. **New-customer 90-day retention and Select v2 attach rate among new cohorts** — the only KPIs that prove the CX fix is converting first-time buyers (the visible weakness in the billings-vs-customers wedge) into the recurring-revenue base that underwrites the exit multiple. Driven by Tiers 2/6/7 (refund badge, plain-English fine print, single-screen checkout) plus Tier 9 notification taper.
+
+**Owner.** A **VP, Customer Experience & Retention** reporting to the CPO, with dotted-line accountability to the CFO for refund P&L and to the COO for merchant booking-integration coverage. This role does not currently exist in the inferred org structure; the deal team should make standing it up a Day-1 hire, not a Day-100 search.
+
+**100-day milestone.** Ship Tiers 1, 2, 6, and 8 of the redesign (analytics foundation, refund/BNPL badges, deal-detail trust contract, post-purchase support entry) to 100% of NA iOS traffic — using the existing 50% rebuilt-app rollout as the deployment vehicle — with the off-platform rating delta, booking success rate, and post-purchase support deflection rate reported weekly to the Board's AI committee.
+
+**Budget reframing.** The prior memo's $10M CX ringfence was sized as defensive brand spend. Reframe as a $15–20M product-and-engineering programme over 24 months with explicit EBITDA attribution (refund-rate reduction × billings; Select v2 attach lift × ARPU). At Base-case sub-economics, every 100 bps of new-cohort retention is worth materially more than the entire programme cost.
