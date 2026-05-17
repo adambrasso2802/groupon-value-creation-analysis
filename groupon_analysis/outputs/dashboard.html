@@ -57,6 +57,53 @@ img{max-width:100%;border-radius:6px;background:#fff;padding:8px}
     <div class="sub">on ~$110.2M Adj. EBITDA at 11–13x</div></div>
 </div>
 
+<section><h2>CX Health — Four Root Complaints (Workstream 4)</h2>
+<p style="font-size:12px;color:#52606d;margin:6px 0 12px">
+  In-app rating (4.8★, ~557K iOS reviews) reflects a closed complaint funnel — frustrated users escalate off-platform.
+  Reviews.io 1.5/5 (9.7K reviews, 7% would recommend) · PissedConsumer ~1.5/5 (28.1K) · BBB ~1.0.
+  Bars below show inferred severity weighted by complaint frequency in off-platform corpora.
+</p>
+<table class="t">
+  <thead><tr>
+    <th>Complaint category</th><th>Driver</th><th>Severity</th><th>Redesign tier</th><th>KPI on the hook</th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <td><b>1. Refund trap</b></td>
+      <td>3-day window on Local Deals; refunds default to Groupon Bucks not original card; "Hassle-free refund" copy contradicted in practice</td>
+      <td><div class="bar"><span style="width:95%"></span></div><span style="font-size:11px;color:#c0392b">Critical</span></td>
+      <td>Tier 2 (RefundPolicyBadge) · Tier 6/7 (terms above CTA)</td>
+      <td>Refund-to-original-card rate; Reviews.io / Trustpilot 1-star share on refund topic</td>
+    </tr>
+    <tr>
+      <td><b>2. Invisible customer support</b></td>
+      <td>No phone line; chat hidden behind help-center clicks; AI loop before reaching human (~1 hour cited)</td>
+      <td><div class="bar"><span style="width:90%"></span></div><span style="font-size:11px;color:#c0392b">Critical</span></td>
+      <td>Tier 8 (PostPurchaseHelpEntry, SupportChatPanel) — highest-leverage component in redesign</td>
+      <td>In-app support deflection rate; time-to-human SLA; off-platform escalation rate</td>
+    </tr>
+    <tr>
+      <td><b>3. Notification overload</b></td>
+      <td>~500M pushes/day platform-wide; one subscriber counted 235 emails in a single month; unsubscribe ineffective</td>
+      <td><div class="bar"><span style="width:75%"></span></div><span style="font-size:11px;color:#e67e22">High</span></td>
+      <td>Tier 9 (NotificationPreferenceCenter)</td>
+      <td>Uninstall rate; daily push cap compliance; unsubscribe-to-stop latency</td>
+    </tr>
+    <tr>
+      <td><b>4. Broken post-payment booking</b></td>
+      <td>Customer pays Groupon, then routed to separate scheduler that fails ("circle keeps spinning"); refund window closes before resolution</td>
+      <td><div class="bar"><span style="width:88%"></span></div><span style="font-size:11px;color:#c0392b">Critical</span></td>
+      <td>Tier 6 (AvailabilityCalendar) · Tier 7 (atomic pay+reserve)</td>
+      <td>Post-payment booking success rate (target ≥95%); merchant booking-tool coverage</td>
+    </tr>
+  </tbody>
+</table>
+<p style="font-size:11px;color:#7b8794;margin-top:8px">
+  Source: <code>../groupon-redesign/groupon-research-brief.md</code> · <code>data/customer_sentiment_themes.csv</code> · <code>data/customer_ux_fixes.csv</code>.
+  Severity is qualitative, derived from complaint-frequency ranking in off-platform review corpora — not a measured churn rate.
+</p>
+</section>
+
 <section><h2>Quarterly Trajectory (Q1-23 → Q3-25, actuals)</h2><table class="dataframe t">
   <thead>
     <tr style="text-align: right;">
