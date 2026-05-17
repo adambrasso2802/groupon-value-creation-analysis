@@ -1,0 +1,22 @@
+{
+  "https://www.trustpilot.com/review/www.groupon.com": {
+    "status": 403,
+    "bytes": 21,
+    "snippet": "Host not in allowlist"
+  },
+  "https://www.g2.com/products/groupon/reviews": {
+    "status": 403,
+    "bytes": 21,
+    "snippet": "Host not in allowlist"
+  },
+  "https://www.reddit.com/r/smallbusiness/search.json?q=groupon&restrict_sr=1": {
+    "status": 403,
+    "bytes": 21,
+    "snippet": "Host not in allowlist"
+  },
+  "https://www.reddit.com/r/entrepreneur/search.json?q=groupon&restrict_sr=1": {
+    "status": 403,
+    "bytes": 21,
+    "snippet": "Host not in allowlist"
+  }
+}

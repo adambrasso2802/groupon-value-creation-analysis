@@ -1,0 +1,7 @@
+fix,detail,priority
+Real-time merchant availability sync,Eliminate post-purchase booking failures,Critical
+Refund SLA + AI-triage,"48-hour refund commit, surfaced pre-purchase",Critical
+Inventory revitalization,Reactivate lapsed merchants in top 25 DMAs,Critical
+Transparent terms above CTA,Move exclusions above the fold,High
+Opt-in clarity for Select membership,"Single-click toggle, no dark-patterns",High
+Trustpilot response operations,"Public, templated responses with case IDs",Medium

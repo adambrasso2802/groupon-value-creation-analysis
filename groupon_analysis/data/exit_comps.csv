@@ -1,0 +1,15 @@
+target,exit_route,year,EV_USDm,ev_rev_x,ev_ebitda_x,type,value_levers
+LivingSocial,Groupon (asset sale),2016.0,0.0,0.0,,Distressed sale,Brand consolidation; no PE return
+RetailMeNot,Harland Clarke (Vericast),2017.0,630.0,1.9,9.5,Strategic buyout,"Affiliate margin expansion, content SEO"
+Ebates (Rakuten),Rakuten,2014.0,1000.0,3.5,12.0,Strategic,Cashback economics; private→strategic
+Honey,PayPal,2020.0,4000.0,15.0,,Strategic,Browser-distribution moat; growth premium
+GrubHub,Just Eat Takeaway,2021.0,7300.0,2.0,18.0,Strategic,Marketplace consolidation
+Just Eat,Takeaway.com merger,2020.0,7800.0,5.0,30.0,Strategic,Consolidation premium
+Trivago,Carve-out (Expedia maj.),2016.0,3000.0,3.3,15.0,IPO/carve-out,Meta-search SEM arbitrage
+Trainline,KKR exit (IPO),2019.0,2300.0,5.2,18.0,PE→IPO,Mobile penetration; international roll-out
+Bumble,Blackstone (IPO),2021.0,7700.0,12.0,30.0,PE→IPO,"Monetisation product launches, freemium tiering"
+MyHeritage,Francisco Partners,2021.0,600.0,3.0,11.0,PE buyout,Subscription LTV; DNA upsell
+Houzz,Sumeru / secondaries,2022.0,,,,Down-round,Marketplace marketplace fatigue
+The Hut Group (THG),IPO (then re-private rumours),2020.0,6000.0,3.5,25.0,PE→IPO,D2C + Ingenuity SaaS narrative
+Wish (ContextLogic),Qoo10,2024.0,173.0,0.2,,Distressed,Brand decay; cautionary tale
+Vistaprint/Cimpress,Public — Bain prior PE,,,,,PE→Public,Recurring SMB customers; print economics

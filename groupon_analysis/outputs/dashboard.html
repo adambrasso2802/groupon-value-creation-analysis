@@ -1,0 +1,313 @@
+<!doctype html><html><head><meta charset="utf-8">
+<title>Groupon PE Value-Creation Dashboard</title>
+<style>
+body{font-family:-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#f4f5f7;color:#1f2933}
+header{background:#0a1f44;color:#fff;padding:18px 28px}
+header h1{margin:0;font-size:22px}
+header p{margin:4px 0 0;font-size:13px;opacity:.85}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:20px 28px}
+.card{background:#fff;border-radius:8px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.card .kpi{font-size:26px;font-weight:600;color:#0a1f44}
+.card .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#52606d}
+.card .sub{font-size:11px;color:#7b8794;margin-top:4px}
+section{padding:8px 28px 28px}
+section h2{font-size:15px;text-transform:uppercase;letter-spacing:.6px;color:#52606d;border-bottom:1px solid #d9dee5;padding-bottom:6px}
+table.t{border-collapse:collapse;width:100%;font-size:12px;background:#fff;border-radius:6px;overflow:hidden}
+table.t th{background:#eef1f5;text-align:left;padding:8px;font-weight:600;color:#334155}
+table.t td{padding:7px 8px;border-top:1px solid #eef1f5}
+.bar{height:8px;border-radius:4px;background:#e3e8ef;overflow:hidden;margin-top:6px}
+.bar>span{display:block;height:100%;background:linear-gradient(90deg,#c0392b,#e67e22,#27ae60)}
+img{max-width:100%;border-radius:6px;background:#fff;padding:8px}
+</style></head><body>
+<header>
+  <h1>Groupon (GRPN) — PE Value-Creation Dashboard</h1>
+  <p>Post-LBO portco view · Public-data build · Generated for sponsor management team</p>
+</header>
+
+<div class="grid">
+  <div class="card"><div class="lbl">Active Customers (Q4-24)</div>
+    <div class="kpi">13.7M</div>
+    <div class="sub">Down from 17.8M in Q1-23 (-23%)</div></div>
+  <div class="card"><div class="lbl">Active Merchants (Q4-24)</div>
+    <div class="kpi">32K</div>
+    <div class="sub">Down from 41K in Q1-23 (-22%)</div></div>
+  <div class="card"><div class="lbl">Revenue / Active Customer (TTM)</div>
+    <div class="kpi">$35.93</div>
+    <div class="sub">TTM revenue $492.2M ÷ 13.7M</div></div>
+  <div class="card"><div class="lbl">Q4-24 Adj. EBITDA</div>
+    <div class="kpi">$19.0M</div>
+    <div class="sub">FY24 ~$50.9M</div></div>
+
+  <div class="card"><div class="lbl">Merchant Net Sentiment</div>
+    <div class="kpi">12.1/100</div>
+    <div class="bar"><span style="width:12.1%"></span></div>
+    <div class="sub">Strongly negative; structural product-economics issues dominate</div></div>
+  <div class="card"><div class="lbl">Consumer Net Sentiment</div>
+    <div class="kpi">24.0/100</div>
+    <div class="bar"><span style="width:24.0%"></span></div>
+    <div class="sub">Trustpilot ~1.3/5 (Bad tier)</div></div>
+  <div class="card"><div class="lbl">iOS App Rating</div>
+    <div class="kpi">~4.5 (high N, retail-skewed)</div>
+    <div class="sub">Retail-skewed; review-prompt heavy</div></div>
+  <div class="card"><div class="lbl">Base-Case 2027 EV</div>
+    <div class="kpi">~$815-980M</div>
+    <div class="sub">10-12x Adj. EBITDA exit</div></div>
+</div>
+
+<section><h2>Quarterly Trajectory (Q1-23 → Q4-24)</h2><table class="dataframe t">
+  <thead>
+    <tr style="text-align: right;">
+      <th>quarter</th>
+      <th>revenue</th>
+      <th>gross_profit</th>
+      <th>adj_ebitda</th>
+      <th>active_customers_M</th>
+      <th>active_merchants_K</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Q1-2023</td>
+      <td>121.6</td>
+      <td>111.4</td>
+      <td>-1.9</td>
+      <td>17.8</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>Q2-2023</td>
+      <td>130.5</td>
+      <td>117.5</td>
+      <td>2.8</td>
+      <td>17.2</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>Q3-2023</td>
+      <td>124.0</td>
+      <td>111.6</td>
+      <td>8.7</td>
+      <td>16.5</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>Q4-2023</td>
+      <td>139.0</td>
+      <td>125.1</td>
+      <td>17.0</td>
+      <td>16.1</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>Q1-2024</td>
+      <td>122.6</td>
+      <td>111.6</td>
+      <td>10.6</td>
+      <td>15.3</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>Q2-2024</td>
+      <td>124.6</td>
+      <td>113.6</td>
+      <td>13.5</td>
+      <td>14.7</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>Q3-2024</td>
+      <td>114.5</td>
+      <td>103.0</td>
+      <td>7.8</td>
+      <td>14.1</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>Q4-2024</td>
+      <td>130.5</td>
+      <td>118.0</td>
+      <td>19.0</td>
+      <td>13.7</td>
+      <td>32</td>
+    </tr>
+  </tbody>
+</table></section>
+<section><h2>3-Year Projections (Bear / Base / Bull)</h2><table class="dataframe t">
+  <thead>
+    <tr style="text-align: right;">
+      <th>case</th>
+      <th>year</th>
+      <th>revenue</th>
+      <th>gross_profit</th>
+      <th>adj_ebitda</th>
+      <th>active_customers_M_eop</th>
+      <th>active_merchants_K_eop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bear</td>
+      <td>2025</td>
+      <td>443.0</td>
+      <td>397.2</td>
+      <td>37.0</td>
+      <td>12.06</td>
+      <td>28.8</td>
+    </tr>
+    <tr>
+      <td>Bear</td>
+      <td>2026</td>
+      <td>407.5</td>
+      <td>365.4</td>
+      <td>34.0</td>
+      <td>10.85</td>
+      <td>26.5</td>
+    </tr>
+    <tr>
+      <td>Bear</td>
+      <td>2027</td>
+      <td>387.2</td>
+      <td>351.0</td>
+      <td>36.2</td>
+      <td>9.98</td>
+      <td>25.2</td>
+    </tr>
+    <tr>
+      <td>Base</td>
+      <td>2025</td>
+      <td>477.4</td>
+      <td>432.8</td>
+      <td>54.1</td>
+      <td>13.01</td>
+      <td>31.0</td>
+    </tr>
+    <tr>
+      <td>Base</td>
+      <td>2026</td>
+      <td>496.5</td>
+      <td>452.6</td>
+      <td>66.2</td>
+      <td>13.28</td>
+      <td>32.6</td>
+    </tr>
+    <tr>
+      <td>Base</td>
+      <td>2027</td>
+      <td>531.3</td>
+      <td>486.9</td>
+      <td>81.5</td>
+      <td>14.07</td>
+      <td>35.9</td>
+    </tr>
+    <tr>
+      <td>Bull</td>
+      <td>2025</td>
+      <td>502.0</td>
+      <td>457.6</td>
+      <td>67.0</td>
+      <td>13.70</td>
+      <td>33.6</td>
+    </tr>
+    <tr>
+      <td>Bull</td>
+      <td>2026</td>
+      <td>562.3</td>
+      <td>518.2</td>
+      <td>97.5</td>
+      <td>14.80</td>
+      <td>38.6</td>
+    </tr>
+    <tr>
+      <td>Bull</td>
+      <td>2027</td>
+      <td>663.5</td>
+      <td>618.1</td>
+      <td>141.6</td>
+      <td>17.02</td>
+      <td>47.1</td>
+    </tr>
+  </tbody>
+</table></section>
+<section><h2>Implied Exit Scenarios</h2><table class="dataframe t">
+  <thead>
+    <tr style="text-align: right;">
+      <th>case</th>
+      <th>exit_year</th>
+      <th>exit_ebitda_M</th>
+      <th>exit_route</th>
+      <th>ev_ebitda_x</th>
+      <th>implied_EV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bear</td>
+      <td>2027</td>
+      <td>36.2</td>
+      <td>Strategic asset sale at distressed multiple</td>
+      <td>6-8x</td>
+      <td>~$220-290m EV</td>
+    </tr>
+    <tr>
+      <td>Base</td>
+      <td>2027</td>
+      <td>81.5</td>
+      <td>Sponsor-to-sponsor at marketplace median</td>
+      <td>10-12x</td>
+      <td>~$815-980m EV</td>
+    </tr>
+    <tr>
+      <td>Bull</td>
+      <td>2027</td>
+      <td>141.6</td>
+      <td>Public re-list w/ subscription narrative</td>
+      <td>14-18x</td>
+      <td>~$2.0-2.5bn EV</td>
+    </tr>
+  </tbody>
+</table></section>
+<section><h2>Competitive Gaps & Actions</h2><table class="dataframe t">
+  <thead>
+    <tr style="text-align: right;">
+      <th>category</th>
+      <th>finding</th>
+      <th>action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tours &amp; Activities</td>
+      <td>Viator dominates with 300k+ bookable experiences; Groupon Things-to-Do inventory ~10-20x smaller per market</td>
+      <td>Partner / inventory swap with an OTA; rebuild Getaways+Activities funnel</td>
+    </tr>
+    <tr>
+      <td>Goods</td>
+      <td>Groupon de-emphasised Goods post-2020; Wowcher still monetises heavily — margin opportunity at 25-30% take</td>
+      <td>Reintroduce curated Goods at 15-20% of GMV cap</td>
+    </tr>
+    <tr>
+      <td>Beauty/Spa</td>
+      <td>Core strength — discount depth at par with Wowcher but US merchant density has declined</td>
+      <td>Local sales reactivation in top-25 DMAs</td>
+    </tr>
+    <tr>
+      <td>Restaurants</td>
+      <td>Underrepresented vs OpenTable/Yelp; voucher model out-of-favour</td>
+      <td>Pivot to prepaid-credit + loyalty integration</td>
+    </tr>
+    <tr>
+      <td>Getaways</td>
+      <td>Inventory &amp; UX trail Booking/Expedia; Wowcher converts better on impulse travel</td>
+      <td>White-label inventory deal; refocus on weekend breaks &lt;$400</td>
+    </tr>
+  </tbody>
+</table></section>
+<section><h2>Financial Projection Charts</h2>
+  <img src="financial_projections.png" alt="projections"></section>
+
+<footer style="padding:14px 28px;color:#7b8794;font-size:11px">
+  Built from public SEC filings (10-Q/10-K), Trustpilot, App Store, Reddit, and trade press.
+  Scraping of Groupon/Wowcher/Viator/Trustpilot returned HTTP 403 in this environment;
+  curated public data was substituted with sources noted in /reports.
+</footer>
+</body></html>

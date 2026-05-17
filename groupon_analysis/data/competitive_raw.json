@@ -1,0 +1,30 @@
+{
+  "sources": {
+    "groupon_us_local": {
+      "url": "https://www.groupon.com/local",
+      "status": 403,
+      "bytes": 21
+    },
+    "groupon_us_goods": {
+      "url": "https://www.groupon.com/goods",
+      "status": 403,
+      "bytes": 21
+    },
+    "groupon_us_getaways": {
+      "url": "https://www.groupon.com/getaways",
+      "status": 403,
+      "bytes": 21
+    },
+    "wowcher_uk": {
+      "url": "https://www.wowcher.co.uk/",
+      "status": 403,
+      "bytes": 21
+    },
+    "viator_us": {
+      "url": "https://www.viator.com/",
+      "status": 403,
+      "bytes": 21
+    }
+  },
+  "summary": {}
+}

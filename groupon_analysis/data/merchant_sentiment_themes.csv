@@ -1,0 +1,11 @@
+theme,detail,frequency,polarity,confidence
+Margin compression,Groupon 50% off + 50% rev share = ~25c on the dollar; unsustainable for low-margin verticals,Very High,Negative,0.92
+Bargain-hunter customer mix,Redeemers rarely convert to repeat full-price customers,Very High,Negative,0.88
+Capacity flooding,"Surge of voucher redemptions overwhelms small operators, harms reviews",High,Negative,0.85
+Payment delays,Multi-tranche payouts (33/33/33) hurt SMB cashflow,High,Negative,0.8
+Account-manager turnover,Frequent rep changes; weak post-sale support,High,Negative,0.75
+Voucher abuse / extras,Customers add-on poorly; tipping on pre-discount price disputes,Medium,Negative,0.65
+No control over deal terms,Pressure to accept aggressive discount depth,High,Negative,0.78
+Reporting opacity,Limited self-serve analytics on redemption & ROI,Medium,Negative,0.55
+Featured-deal lift,"When promoted, real new-customer acquisition lift",Medium,Positive,0.4
+Brand awareness for new entrants,Useful launch tool for brand-new local businesses,Medium,Positive,0.45

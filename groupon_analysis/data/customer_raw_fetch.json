@@ -1,0 +1,18 @@
+{
+  "https://www.trustpilot.com/review/www.groupon.com": {
+    "status": 403,
+    "bytes": 21
+  },
+  "https://www.reddit.com/r/frugal/search.json?q=groupon&restrict_sr=1": {
+    "status": 403,
+    "bytes": 21
+  },
+  "https://www.reddit.com/r/deals/search.json?q=groupon&restrict_sr=1": {
+    "status": 403,
+    "bytes": 21
+  },
+  "https://apps.apple.com/us/app/groupon-local-deals-near-me/id352683833": {
+    "status": 403,
+    "bytes": 21
+  }
+}

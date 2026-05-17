@@ -1,0 +1,10 @@
+theme,detail,frequency,polarity,confidence
+Customer service unresponsive,Refund disputes are the #1 Trustpilot complaint,Very High,Negative,0.95
+Merchant unavailability,Booking widget shows availability that merchant won't honor,High,Negative,0.85
+Hidden fine print / exclusions,Restrictions only visible after purchase,High,Negative,0.8
+Auto-renew / Select membership,Customers complain of unclear opt-in,Medium,Negative,0.65
+Voucher expiry confusion,Promo vs paid value confusion at redemption,Medium,Negative,0.6
+Inventory shrinking,Fewer fresh deals in many DMAs vs 2015-18 peak,High,Negative,0.75
+Genuine savings on spa/beauty,Top-of-funnel for trial in service categories,High,Positive,0.7
+Gifting use-case,Spa/massage as low-effort gift,Medium,Positive,0.45
+App speed (post-2023 rebuild),Improved load times,Low,Positive,0.3
