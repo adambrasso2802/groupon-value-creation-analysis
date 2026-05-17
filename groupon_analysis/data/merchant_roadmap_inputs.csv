@@ -1,7 +1,8 @@
-feature_request,detail,priority
-Flexible discount floors per category,"Allow 20-30% off tier, not only 50%",Critical
-Faster / single-tranche payouts,Pay within 7 days,Critical
-Redemption cap & throttling tools,Avoid capacity flooding,High
-Self-serve merchant analytics dashboard,Cohort LTV of voucher redeemers,High
-Repeat-customer conversion product,Loyalty / subscription bolt-on for merchants,High
-Dedicated long-tenure account managers,Reduce churn from rep turnover,Medium
+feature_request,detail,priority,2025_context
+Flexible discount floors per category,"Allow 20-30% off tier, not only 50%",Critical,"NA Local billings up 11-20% YoY through 2025 suggests current management may already be relaxing the 50%-only standard in pilot markets — diligence priority: verify"
+Faster / single-tranche payouts,Pay within 7 days,Critical,"Still cited in 2024 merchant reviews; payment-terms change would be a clear lever even amid the recovery"
+Redemption cap & throttling tools,Avoid capacity flooding,High,"Higher leverage as volumes recover — capacity flooding tends to surface on rebounds"
+Self-serve merchant analytics dashboard,Cohort LTV of voucher redeemers,High,"With billings growing, merchants need data to justify reinvestment rather than exit"
+Repeat-customer conversion product,Loyalty / subscription bolt-on for merchants,High,"Active customers re-growing sequentially Q1->Q3 2025 (15.4->16.1M); repeat-conversion product would compound this"
+Dedicated long-tenure account managers,Reduce churn from rep turnover,Medium,"NA sales coverage appears to have been addressed by management; diligence whether spend rose or productivity did"
+Margin diagnostic,"Confirm whether billings growth reflects healthier merchant economics or volume on unchanged take-rate",Diligence priority,"Take-rate (revenue/billings) is 30.3% / 30.2% / 29.5% in Q1-Q3 2025 — slight compression suggests volume is partially masking take-rate erosion"

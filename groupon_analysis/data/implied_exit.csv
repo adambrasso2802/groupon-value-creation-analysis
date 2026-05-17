@@ -1,4 +1,4 @@
 case,exit_year,exit_ebitda_M,exit_route,ev_ebitda_x,implied_EV
-Bear,2027,36.2,Strategic asset sale at distressed multiple,6-8x,~$220-290m EV
-Base,2027,81.5,Sponsor-to-sponsor at marketplace median,10-12x,~$815-980m EV
-Bull,2027,141.6,Public re-list w/ subscription narrative,14-18x,~$2.0-2.5bn EV
+Bear,2027,54.2,Sponsor-to-sponsor at marketplace median (no longer distressed),8-10x,~$550-700M
+Base,2027,110.2,Sponsor-to-sponsor or strategic (marketplace + loyalty narrative),11-13x,~$1.4-1.7B
+Bull,2027,160.8,Strategic acquisition or IPO re-rating on growth+subscription,15-18x,~$2.7-3.3B
